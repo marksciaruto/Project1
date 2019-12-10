@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 /* Style inputs */
@@ -8,14 +9,18 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 3px solid #b25769;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
 
+body {
+    background-color: #1f494e;
+}
+
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #63273b;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -23,13 +28,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #cad3de;
 }
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 10px;
 }
 
@@ -48,6 +52,9 @@ input[type="submit"]:hover {
   clear: both;
 }
 
+.divcenter {
+    text-align:center;
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column,
